@@ -45,8 +45,7 @@ int main(void)
 
 	}
 
-	}
-	
+	}	
 	}
 
 	}
