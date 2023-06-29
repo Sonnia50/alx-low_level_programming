@@ -1,12 +1,17 @@
-int _putchar(char c);
-void print_alphabet(void);
-void print_alphabet_x10(void);
-int _islower(int c);
-int _isalpha(int c);
-int print_sign(int n);
-int _abs(int);
-int print_last_digit(int);
-void jack_bauer(void);
-void times_table(void);
-int add(int, int);
-void print_to_98(int n);
+#include "main.h"
+/**
+ * print_alphabet - prints alphabet
+ * main - Entry point
+ * Description: prints alphabet in lower case
+ * Return: always 0 (success)
+ */
+void print_alphabet(void)
+{
+        char  chr;
+
+        for (chr = 97; chr <= 122; chr++)
+        {
+                _putchar(chr);
+        }
+        _putchar('\n');
+}
