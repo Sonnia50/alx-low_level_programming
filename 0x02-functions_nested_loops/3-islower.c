@@ -1,18 +1,17 @@
-#include <stdio.h>
-
+#include "main.h"
 /**
- * main - prints the alphabet in lowercase, and then in uppercase,
- * followed by a new line
- * Return: Always 0 (Success)
+ * _islower - checks lowercase character
+ * @c: the character to be checked
+ * Return: 1 if c is lowercase
  */
-int main(void)
+int _islower(int c)
 {
-	int d;
-
-	for (d = 'a'; d <= 'z'; d++)
-		putchar(d);
-	for (d = 'A'; d <= 'Z'; d++)
-		putchar(d);
-	putchar('\n');
-	return (0);
+        if (c >= 97 && c <= 122)
+        {
+                return (1);
+        }
+        else
+        ii{
+                return (0);
+        }
 }
